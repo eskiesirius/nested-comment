@@ -10,7 +10,7 @@ use App\Models\Comment;
 trait CommentRelationship
 {
     /**
-     * @return mixed
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function replies()
     {

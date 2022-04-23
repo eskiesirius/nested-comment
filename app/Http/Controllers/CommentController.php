@@ -18,7 +18,7 @@ class CommentController extends Controller
     protected $commentService;
 
     /**
-     * CategoryController constructor.
+     * CommentController constructor.
      *
      * @param  CommentService   $commentService
      */

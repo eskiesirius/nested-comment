@@ -93,7 +93,6 @@ import { reactive } from 'vue'
 import { useForm } from '@inertiajs/inertia-vue3'
 import ErrorMessage from '@/Components/ErrorMessage.vue'
 import ReplyList from '@/Components/ReplyList.vue'
-import ReplyArea from '@/Components/ReplyArea.vue'
 
 defineProps({
     comments: Object,

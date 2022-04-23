@@ -34,8 +34,7 @@ class CommentService extends BaseService
      * @param  array $data
      *
      * @return Comment
-     * @throws GeneralException
-     * @throws \Throwable
+     * @throws 500
      */
     public function store(array $data = []): Comment
     {
@@ -63,8 +62,7 @@ class CommentService extends BaseService
      * @param  array $data
      *
      * @return Comment
-     * @throws GeneralException
-     * @throws \Throwable
+     * @throws 500
      */
     public function reply(array $data = [], Comment $comment): Comment
     {
